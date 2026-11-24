@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- intent model: dashed blueprint page behind -->
+  <rect x="10" y="8" width="30" height="42" rx="5" fill="none" stroke="#7c83f0" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <line x1="16" y1="18" x2="34" y2="18" stroke="#7c83f0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <line x1="16" y1="25" x2="34" y2="25" stroke="#7c83f0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <line x1="16" y1="32" x2="28" y2="32" stroke="#7c83f0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+  <!-- manuscript: solid page in front -->
+  <rect x="24" y="14" width="30" height="42" rx="5" fill="#f5f6ff" stroke="#4338ca" stroke-width="3"/>
+  <line x1="31" y1="26" x2="47" y2="26" stroke="#4338ca" stroke-width="3" stroke-linecap="round"/>
+  <line x1="31" y1="34" x2="47" y2="34" stroke="#4338ca" stroke-width="3" stroke-linecap="round"/>
+  <line x1="31" y1="42" x2="41" y2="42" stroke="#4338ca" stroke-width="3" stroke-linecap="round"/>
+  <!-- pen nib -->
+  <path d="M47 52l9-9 4 4-9 9-5 1z" fill="#f59e0b" stroke="#b45309" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

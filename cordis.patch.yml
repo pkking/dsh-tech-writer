@@ -1,0 +1,10 @@
+# dsh-tech-writer — Intent-Driven Writing bundle.
+# Registers the Host plugin `tech-writer` (tools, /write command, prompt section).
+- insert:
+    - id: tech-writer
+      name: dsh-tech-writer
+      config:
+        projectsDir: writing
+        command: write
+        enableTools: true
+        enablePrompt: true

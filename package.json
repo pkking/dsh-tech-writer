@@ -1,0 +1,43 @@
+{
+  "name": "dsh-tech-writer",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Intent-driven writing for DeepSeek Harness: an intent.md model beside manuscript.md, with reverse-outline validation.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test \"tests/*.test.mjs\"",
+    "test:unit": "node --test tests/pure.test.mjs tests/command.test.mjs tests/config.test.mjs",
+    "test:e2e": "node --test tests/e2e.test.mjs",
+    "test:legacy": "node selftest.mjs && node mocktest.mjs"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "tests/*.mjs",
+    "selftest.mjs",
+    "mocktest.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/cordis",
+    "@deepseek-ai/dsh-commands": "link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-commands",
+    "@deepseek-ai/dsh-fs-local": "link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-fs-local",
+    "@deepseek-ai/dsh-system-prompt": "link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-system-prompt",
+    "@deepseek-ai/dsh-tools": "link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-tools",
+    "@deepseek-ai/dsh-tool-executor-native": "link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-tool-executor-native"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "意图驱动写作",
+    "description": "为文章与长文维护 intent.md 意图模型与 manuscript.md 正文双文档，通过 /write 命令与 writer_* 工具提供反向提纲校验。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Intent-driven writer",
+    "description": "Keeps an intent.md model beside manuscript.md for articles and long-form docs, with reverse-outline validation via /write and the writer_* tools."
+  }
+}

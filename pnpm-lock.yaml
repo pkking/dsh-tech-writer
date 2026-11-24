@@ -1,0 +1,28 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@deepseek-ai/cordis':
+        specifier: link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/cordis
+        version: link:../.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/cordis
+      '@deepseek-ai/dsh-commands':
+        specifier: link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-commands
+        version: link:../.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-commands
+      '@deepseek-ai/dsh-fs-local':
+        specifier: link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-fs-local
+        version: link:../.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-fs-local
+      '@deepseek-ai/dsh-system-prompt':
+        specifier: link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-system-prompt
+        version: link:../.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-system-prompt
+      '@deepseek-ai/dsh-tool-executor-native':
+        specifier: link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-tool-executor-native
+        version: link:../.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-tool-executor-native
+      '@deepseek-ai/dsh-tools':
+        specifier: link:/home/lcr/.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-tools
+        version: link:../.local/share/mise/installs/npm-deepseek-ai-dsh/0.2.2-rc.5/node_modules/@deepseek-ai/dsh-tools
